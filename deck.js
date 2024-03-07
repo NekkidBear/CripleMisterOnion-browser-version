@@ -46,3 +46,6 @@ class Deck {
         }
     }
 }
+
+let newDeck = Deck;
+console.log(newDeck);
