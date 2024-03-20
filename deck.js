@@ -19,7 +19,7 @@ class Card {
 }
 
 class Deck {
-    /** Each Deck contains 104 cards. Each card has a Suit, a Rank, a sprite and a value. The value can fluctuate depending on the round and modifiers
+    /** Each Deck for Cripple Mr. Onion contains 104 cards. Each card has a Suit, a Rank, a sprite and a value. The value can fluctuate depending on the round and modifiers
  * in effect, but in general, Aces are 1, 2-9 are face value, and Jack, Queen, King are worth 10.
 */
     constructor(){    
