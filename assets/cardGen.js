@@ -13,5 +13,11 @@ function deckBuilder(){
     return cards;
 }
 
-let deck = deckBuilder();
-console.log(deck);
+function randomCard(cards) {
+    const random = Math.floor(Math.random()*51);
+    const cardValue = cards[random].value;
+    const cardSuit = cards[random].suit;
+}
+
+const cards = deckBuilder();
+randomCard(cards);
